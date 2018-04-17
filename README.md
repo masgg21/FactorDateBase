@@ -1,0 +1,6 @@
+# FactorDateBase
+DAO层框架实现
+
+DBFactory根据用户不用的选择进入不同的数据库操作流程（如Mysql或者Orcle）
+
+进入MySQL数据库操作中，会获取Connection对象和Statement对象，以及生成相应的sql
